@@ -16,7 +16,7 @@ import './search-box.styles.css'
 
  const SearchBox = ({ className, placeholder, onChnageHandler}) => (
     <input 
-    className={`${className} search-box`}
+    className={`${className} search-box`} {/*CSS Apply Rule*/}
     type='search'
     placeholder={placeholder}
     onChange={onChnageHandler}
